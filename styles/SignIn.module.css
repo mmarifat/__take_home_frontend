@@ -1,0 +1,17 @@
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputSpace{
+    margin-top: 1rem;
+}
+
+.register {
+    margin-top: 1rem;
+}
+
+.registerHere {
+    color: blue;
+}
