@@ -1,28 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+## Installation
 
 ```bash
-yarn dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# development mode
+yarn dev
+# before running in production mode
+yarn build
+# production mode
+yarn start
+```
 
-## Learn More
+# Features
+- Apollo GraphQL
+- React-Hook-Form (Form Validation)
+- Redux (UserInfo and Dashboard API results)
+- SWR (Data fetching)
+- JSON-web-token
 
-To learn more about Next.js, take a look at the following resources:
+## Modules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sign Up Page (With validation)
+- email 
+- password
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Sign In Page (No validation)
+- email
+- password
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dashboard Page
+- img_src and earth_date from mars.gov site in box
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+- Sign In
+  ![sign-in](./docs/sign-in.png?raw=true "Sign In Page")
+- Sign Up
+  ![sign-up](./docs/sign-up.png?raw=true "Sign Up Page")

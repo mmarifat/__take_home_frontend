@@ -2,6 +2,7 @@
   "name": "take_home_frontend",
   "version": "0.1.0",
   "private": true,
+  "author": "mmarifat<mma.rifat66@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
